@@ -1,0 +1,41 @@
+{
+  "development": {
+    "username": "user",
+    "password": "pass",
+    "database": "siprunpcd_dev",
+    "host": "127.0.0.1",
+    "port": 1433,
+    "dialect": "mssql",
+    "pool": {
+       "max": 15,
+       "min": 0,
+       "idle": 10000
+   }
+  },
+  "test": {
+    "username": "user",
+    "password": "pass",
+    "database": "siprunpcd_test",
+    "host": "127.0.0.1",
+    "port": 1433,
+    "dialect": "mssql",
+    "pool": {
+       "max": 15,
+       "min": 0,
+       "idle": 10000
+   }
+  },
+  "production": {
+    "username": "user",
+    "password": "pass",
+    "database": "siprunpcd_prod",
+    "host": "127.0.0.1",
+    "port": 1433,
+    "dialect": "mssql",
+    "pool": {
+       "max": 15,
+       "min": 0,
+       "idle": 10000
+   }
+  }
+}
